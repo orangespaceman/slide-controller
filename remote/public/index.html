@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Slide Controller</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="./_includes/css/screen.css">
+</head>
+<body>
+  <h1>Slide Controller</h1>
+  <div class="controls">
+    <ul>
+      <li><a class="prev" href="#">&lt;</a></li>
+      <li><a class="next" href="#">&gt;</a></li>
+    </ul>
+  </div>
+  <div class="note-container">
+    <p>Slide <span class="current-slide">x</span> of <span class="total-slides">x</span></p>
+    <div class="notes">
+      <p>notes will appear here...</p>
+    </div>
+  </div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="./_includes/js/ender.min.js"></script>
+  <script src="./_includes/js/site.js"></script>
+</body>
+</html>

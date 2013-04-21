@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Presentation</title>
+
+    <meta charset='utf-8'>
+
+    <script>
+      // set remote websocket url here
+      var websocketUrl = "http://localhost:7003/";
+    </script>
+
+    <script src='./assets/slides.js'></script>
+    <script src='./assets/jquery.js'></script>
+    <script src='./assets/socket.io.js'></script>
+    <script src='./assets/slide-websockets.js'></script>
+
+    <style>
+      .notes {
+        display:none;
+      }
+    </style>
+  </head>
+
+
+  <body>
+
+    <section class='slides layout-regular '>
+
+      <div id="output" style="display: none">
+      </div>
+
+      <article>
+        <h1>My slideshow</h1>
+        <h3>Blah blah blah</h3>
+
+        <h2>Hello!</h2>
+      </article>
+
+
+      <article>
+        <h3>Lorem</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="notes">
+          <p>Slide 2: Some notes</p>
+        </div>
+      </article>
+
+
+      <article>
+        <h3>Lorem Ipsum Dolor Sit Amet</h3>
+        <pre><code data-language="html">&lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+    &lt;head&gt;
+      &lt;title&gt;Hello world&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;h3&gt;Hello world&lt;/h3&gt;
+      &lt;p&gt;This is a test&lt;/p&gt;
+    &lt;/body&gt;
+  &lt;/html&gt;</code></pre>
+        <div class="notes">
+          <p>Slide 3: quidquid Latine dictum sit altum videtur</p>
+        </div>
+      </article>
+
+
+      <article>
+        <h3>Lorem</h3>
+        <ul>
+          <li>Lorem</li>
+          <li>Ipsum</li>
+          <li>Dolor</li>
+          <li>Sit</li>
+          <li>Amet</li>
+        </ul>
+        <!-- no notes -->
+      </article>
+
+
+      <article>
+        <h3>Lorem</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <div class="notes">
+          <p>Slide 5: quidquid Latine dictum sit altum videtur</p>
+        </div>
+      </article>
+
+
+      <article>
+        <h3>Lorem Ipsum Dolor Sit Amet</h3>
+        <pre><code data-language="css">body {
+      background:yellow;
+      color:red;
+      font-family:Arial;
+  }
+
+  h3 {
+      color:green;
+  }</code></pre>
+      </article>
+
+
+      <article>
+        <h3>Lorem</h3>
+        <ul>
+          <li>Lorem</li>
+          <li>Ipsum</li>
+          <li>Dolor</li>
+          <li>Sit</li>
+          <li>Amet</li>
+        </ul>
+      </article>
+
+
+      <article>
+        <h3>Lorem</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </article>
+
+
+      <article>
+        <h3>Lorem Ipsum Dolor Sit Amet</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <div class="notes">
+          <p>Slide 9: quidquid Latine dictum sit altum videtur</p>
+        </div>
+      </article>
+
+
+      <article>
+        <h3>Lorem</h3>
+        <ul>
+          <li>Lorem</li>
+          <li>Ipsum</li>
+          <li>Dolor</li>
+          <li>Sit</li>
+          <li>Amet</li>
+        </ul>
+      </article>
+
+    </section>
+
+  </body>
+</html>
