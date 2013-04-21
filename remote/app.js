@@ -4,9 +4,10 @@
  * $ node app.js
  *
  */
+
 var express     = require('express'),
     server      = express.createServer(),
-    io          = require("socket.io").listen(server),
+    io          = require("socket.io").listen(server,{"log level":0}),
     port        = process.env.PORT || process.env['app_port'] || 7003;
 
 
@@ -14,7 +15,6 @@ var express     = require('express'),
 server.use(express.query());
 server.use(express.static(__dirname + '/public'));
 server.use(express.favicon(__dirname + '/public/_includes/img/fav.ico'));
-//server.use(connect.router(routes));
 server.listen(port);
 
 // listen for socket.io controller connection
