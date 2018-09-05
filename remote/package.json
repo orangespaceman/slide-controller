@@ -1,13 +1,9 @@
 {
-  "author": {
-    "name": "Pete Goodman",
-    "url": "http://petegoodman.com"
-  },
   "name": "slide-controller",
   "node":"0.10.x",
   "description": "Node.js-based remote control for HTML/JS slideshows",
   "version": "0.0.2",
-  "repository": { "type" : "git", "url" : "http://github.com/thegingerbloke/slide-controller.git" },
+  "repository": { "type" : "git", "url" : "http://github.com/orangespaceman/slide-controller.git" },
   "keywords": ["slideshow"],
   "dependencies": {
     "express" : "2.5.x",

@@ -1,5 +1,4 @@
 // Slide websockets
-// petegoodman.com
 
 /*
  * Init on load
